@@ -39,10 +39,10 @@ terraform apply -auto-approve
 > **Screenshot:** Terraform VPC spin up using IaC
 > ![](./screenshots/Terraform.png)
 
-> ✅ **Screenshot:** EC2 Ubuntu server via ssh
+> **Screenshot:** EC2 Ubuntu server via ssh
 > ![](./screenshots/ssh-server.png)
 
-> ✅ **Screenshot:** Launched server via private IP
+> **Screenshot:** Launched server via private IP
 > ![](./screenshots/Live-server.png)
 
 ### 2. The Initial Audit
@@ -52,7 +52,7 @@ After deployment, I ran an audit using **Prowler** against the CIS AWS Foundatio
 * **Initial Status:** 99% Failure on EC2 / 93% Failure on VPC.
 * **Key Findings:** Open SSH (22) to the world, unencrypted volumes, and missing Flow Logs.
 
-> ✅ **Screenshot:** Automated CSPM via Prowler
+> **Screenshot:** Automated CSPM via Prowler
 > ![](./screenshots/Prowler-scan.png)
 
 ### 3. Remediation & Hardening
